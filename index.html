@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <p class="text-center mt-5 border" id="demo"></p>
+
+    <div class="container d-flex mt-5">
+        <button class="btn border-dark m-1" onclick="showConsult(0)">Precios inferiores a 35€</button>
+        <button class="btn border-dark m-1" onclick="showConsult(1)">Precios superiores a 35€</button>
+        <button class="btn border-dark m-1" onclick="showConsult(2)">Películas categoría Marvel</button>
+        <button class="btn border-dark m-1" onclick="showConsult(3)">Título de Películas</button>
+        <button class="btn border-dark m-1" onclick="showConsult(4)">Primera Película del Documento XML</button>
+        <button class="btn border-dark m-1" onclick="showConsult(5)">Precios de todas las Películas</button>
+        <button class="btn border-dark m-1" onclick="showConsult(6)">Direcores de Las Películas</button>
+        <button class="btn border-dark m-1" onclick="showConsult(7)">Películas estrenadas antes del 2010</button>
+        <button class="btn border-dark m-1" onclick="showConsult(8)">Películas que su lenguaje este en Español</button>
+        <button class="btn border-dark m-1" onclick="showConsult(9)">Películas en las que el director es Joh Lasseter</button>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

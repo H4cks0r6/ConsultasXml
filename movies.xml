@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<moviestore>
+
+    <movie category="Marvel">
+        <title lang="es">Avengers: End Game</title>
+        <director>Giada De Laurentiis</director>
+        <year>2019</year>
+        <price>30.00</price>
+    </movie>
+
+    <movie category="Marvel">
+        <title lang="en">Avengers: Infinity War</title>
+        <director>J K. Rowling</director>
+        <year>2018</year>
+        <price>29.99</price>
+    </movie>
+
+    <movie category="DC">
+        <title lang="en">Toy Story 1</title>
+        <director>James McGovern</director>
+        <director>Per Bothner</director>
+        <year>2003</year>
+        <price>49.99</price>
+    </movie>
+
+    <movie category="Disney">
+        <title lang="es">El Rey León</title>
+        <director>Joh Lasseter</director>
+        <year>2003</year>
+        <price>39.95</price>
+    </movie>
+</moviestore>
